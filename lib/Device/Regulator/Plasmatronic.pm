@@ -8,7 +8,7 @@ use Time::HiRes qw(usleep);
 use POSIX;
 use Fcntl;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 my $TEMP_DELAY = 100;		# Microsecond (I think...)
 my $TEMP_TIMEOUT = 2;		# Max time for an entry (seconds)

@@ -3,7 +3,7 @@ use Test;
 BEGIN { plan tests => 1 };
 use strict;
 use blib;
-use Device::ParallelPort;
+use Device::Regulator::Plasmatronic;
 
 ok(1);
 
